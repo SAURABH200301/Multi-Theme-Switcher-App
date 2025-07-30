@@ -1,5 +1,5 @@
 # Deployed at :
-- https://multi-theme-switcher-app-azure.vercel.app/
+- https://multi-theme-switcher-app-cyan.vercel.app/
 
 # Getting Started with Create React App
 
