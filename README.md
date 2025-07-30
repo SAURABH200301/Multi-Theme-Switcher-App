@@ -1,3 +1,6 @@
+# Deployed at :
+- https://multi-theme-switcher-app-azure.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,57 +17,84 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Functionality 
+-  Theme should persist across page reload (used localStorage)
+-  Used Context API for theme managment
+-  Responsive design using CSS Modules, Tailwind
+-  Add subtle animation while switching themes
+-  Used React Router and demonstrated the theme across multiple pages (Home, About, Contact)
+-  Used TypeScript
+-  Compatible with all devices
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Folder Structure 
+```
+multi-theme-changer/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   └── layouts/
+│   │       ├── ColorfulCardLayout.tsx
+│   │       ├── DarkSidebarLayout.tsx
+│   │       ├── MinimalistLayout.tsx
+│   │       ├── Header.tsx
+│   │       └── LayoutWrapper.tsx
+│   ├── contexts/
+│   │   └── ThemeContext.tsx
+│   ├── pages/
+│   │   ├── About.tsx
+│   │   ├── Contact.tsx
+│   │   └── Home.tsx
+│   ├── services/
+│   │   └── api.ts
+│   ├── types/
+│   │   └── theme.ts
+│   ├── App.tsx
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+│
+├── .gitignore
+├── package-lock.json
+└── README.md
+```
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Minimalist theme screenshot
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/301ab397-f7e4-47d3-a9ca-4e9ab68fc7e0" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dark Sidebar
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1e5f4d8b-3fa6-4dc6-b6a3-31b57b5a480c" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Colorful card
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/437ec686-afa1-4211-b7ce-5f5852af8376" />
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ## Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `@types/node`: ^24.1.0
+- `@types/react`: ^19.1.9
+- `@types/react-dom`: ^19.1.7
+- `axios`: ^1.8.4
+- `cra-template`: 1.2.0
+- `react`: ^19.0.0
+- `react-dom`: ^19.0.0
+- `react-router-dom`: ^7.5.1
+- `react-scripts`: 5.0.1
+- `typescript`: ^4.9.5
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## DevDependencies
 
-## Learn More
+- `@craco/craco`: ^7.1.0
+- `@eslint/js`: 9.23.0
+- `autoprefixer`: ^10.4.20
+- `eslint`: 9.23.0
+- `eslint-plugin-import`: 2.31.0
+- `eslint-plugin-jsx-a11y`: 6.10.2
+- `eslint-plugin-react`: 7.37.4
+- `globals`: 15.15.0
+- `postcss`: ^8.4.49
+- `tailwindcss`: ^3.4.17
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
