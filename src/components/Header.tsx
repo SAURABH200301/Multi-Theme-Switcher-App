@@ -32,7 +32,7 @@ const Header: React.FC = () => {
               MS
             </div>
             <h1 
-              className="text-xl font-bold transition-all duration-300"
+              className="max-sm:text-sm text-xl font-bold transition-all duration-300"
               style={{
                 color: currentTheme.colors.text,
                 fontFamily: currentTheme.fonts.primary,

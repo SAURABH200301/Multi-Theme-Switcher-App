@@ -25,7 +25,7 @@ const DarkSidebarLayout: React.FC<DarkSidebarLayoutProps> = ({ children }) => {
       }}
     >
       <aside 
-        className="w-64 fixed left-0 top-20 h-[calc(100vh-5rem)] overflow-y-auto transition-all duration-300"
+        className="max-sm:w-32 w-64 fixed left-0 top-20 h-[calc(100vh-5rem)] overflow-y-auto transition-all duration-300"
         style={{
           backgroundColor: currentTheme.colors.surface,
           borderRight: `1px solid ${currentTheme.colors.border}`,
@@ -81,7 +81,7 @@ const DarkSidebarLayout: React.FC<DarkSidebarLayoutProps> = ({ children }) => {
         </div>
       </aside>
 
-      <main className="flex-1 ml-64 p-8">
+      <main className="max-sm:ml-32 flex-1 ml-64 p-8">
         <div 
           className="space-y-8"
           style={{
