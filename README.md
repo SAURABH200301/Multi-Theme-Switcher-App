@@ -62,13 +62,16 @@ multi-theme-changer/
 
 
 ## Minimalist theme screenshot
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/301ab397-f7e4-47d3-a9ca-4e9ab68fc7e0" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c3f4284a-b7c4-45e8-9735-1ba7470e04d8" />
+
 
 ## Dark Sidebar
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1e5f4d8b-3fa6-4dc6-b6a3-31b57b5a480c" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d59e0035-ca04-43f7-b230-a7df5ca71f19" />
+
 
 ## Colorful card
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/437ec686-afa1-4211-b7ce-5f5852af8376" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f4cadff2-fd65-4c13-8208-116c08e115fd" />
+
 
 
 
