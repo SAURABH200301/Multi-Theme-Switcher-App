@@ -2,7 +2,12 @@ name: Deploy React app to GitHub Pages
 
 on:
   push:
-    branches: [master] 
+    branches: [master]
+
+permissions:
+  contents: write   
+  pages: write      
+  id-token: write    
 
 jobs:
   deploy:
