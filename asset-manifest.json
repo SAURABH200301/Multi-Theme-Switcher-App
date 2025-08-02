@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Multi-Theme-Switcher-App/static/css/main.0de709ff.css",
-    "main.js": "/Multi-Theme-Switcher-App/static/js/main.cea0aaea.js",
+    "main.js": "/Multi-Theme-Switcher-App/static/js/main.b68b6ae7.js",
     "index.html": "/Multi-Theme-Switcher-App/index.html",
     "main.0de709ff.css.map": "/Multi-Theme-Switcher-App/static/css/main.0de709ff.css.map",
-    "main.cea0aaea.js.map": "/Multi-Theme-Switcher-App/static/js/main.cea0aaea.js.map"
+    "main.b68b6ae7.js.map": "/Multi-Theme-Switcher-App/static/js/main.b68b6ae7.js.map"
   },
   "entrypoints": [
     "static/css/main.0de709ff.css",
-    "static/js/main.cea0aaea.js"
+    "static/js/main.b68b6ae7.js"
   ]
 }
