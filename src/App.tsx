@@ -11,7 +11,7 @@ import Contact from "./pages/Contact";
 const App: React.FC = () => {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Multi-Theme-Switcher-App">
         <div className="App">
           <Header />
           <LayoutWrapper>
